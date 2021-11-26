@@ -255,16 +255,17 @@ nav {
   box-shadow: var(--shadow-3);
 }
 nav h4 {
-  align-self: center;
   margin-bottom: 0;
   color: var(--primary300);
   font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .section-center {
   width: 90vw;
   max-width: var(--fixed-width);
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -277,6 +278,8 @@ nav h4 {
 .links a {
   color: var(--primary900);
   font-weight: 600;
+  letter-spacing: var(--letterSpacing);
+  transition: var(--transition);
 }
 
 .links a:hover {
