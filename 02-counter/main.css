@@ -245,3 +245,33 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+/* main */
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+main h1 {
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.number {
+  font-size: 5rem;
+}
+
+.btn-counter {
+  margin: 0 0.5rem;
+  letter-spacing: 3px;
+  background: transparent;
+  color: var(--black);
+  border: 2px solid var(--black);
+}
+
+.btn-counter:hover {
+  background: var(--black);
+  color: var(--white);
+}
