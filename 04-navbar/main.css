@@ -255,7 +255,7 @@ nav {
 .section-center {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   padding: 0.5rem 1rem;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -271,13 +271,7 @@ nav {
 
 #nav-btn:hover {
   color: var(--primary900);
-  animation: bar-spin 0.3s linear 1 forwards;
-}
-
-@keyframes bar-spin {
-  to {
-    transform: rotate(90deg);
-  }
+  transform: rotate(90deg);
 }
 
 .links a {
