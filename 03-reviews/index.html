@@ -6,10 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css" />
 
-    <title>Default Starter</title>
+    <title>Reviews</title>
   </head>
   <body>
+    <main>
+      <div class="container">
+        <div class="title">
+          <h2>Our Reviews</h2>
+          <div class="title-underline"></div>
+        </div>
+        <article class="review">
+          <div class="img-container">
+            <img id="person" class="img" src="./person-1.jpeg" alt="person-1" />
+            <span class="quote"><i class="fas fa-quote-right"></i></span>
+          </div>
+
+          <div class="info">
+            <h4 id="author">Susan Smith</h4>
+            <h4 id="job">web developer</h4>
+            <p id="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+              itaque commodi, officiis distinctio inventore velit nihil dolores
+              explicabo recusandae culpa cum suscipit maxime exercitationem
+              voluptates officia quo, vel reiciendis dicta!
+            </p>
+          </div>
+
+          <div class="btn-container">
+            <button type="button" class="btn-prev">
+              <span><i class="fas fa-angle-left"></i></span>
+            </button>
+            <button type="button" class="btn-next">
+              <span><i class="fas fa-angle-right"></i></span>
+            </button>
+          </div>
+          <button class="btn random">Surprise me</button>
+        </article>
+      </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
