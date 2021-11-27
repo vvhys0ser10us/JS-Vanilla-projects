@@ -274,6 +274,11 @@ nav {
   transform: rotate(90deg);
 }
 
+.img-container {
+  display: grid;
+  place-self: center;
+}
+
 .links a {
   display: block;
   text-transform: capitalize;
@@ -292,6 +297,9 @@ nav {
 
 .links {
   margin: 0;
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
 }
 
 .social-icons {
@@ -299,7 +307,7 @@ nav {
 }
 
 .show-links {
-  display: none;
+  height: 176px;
 }
 
 @media screen and (min-width: 768px) {
@@ -315,15 +323,8 @@ nav {
     justify-content: space-between;
   }
 
-  .img-container {
-    display: grid;
-  }
-
-  .img-container img {
-    place-self: center;
-  }
-
   .links {
+    height: auto;
     justify-self: center;
     align-self: center;
     display: flex;
