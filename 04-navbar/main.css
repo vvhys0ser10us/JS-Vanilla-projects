@@ -258,7 +258,6 @@ nav {
   align-items: center;
   padding: 0.5rem 1rem;
   max-width: var(--max-width);
-  margin: 0 auto;
 }
 
 #nav-btn {
@@ -272,11 +271,6 @@ nav {
 #nav-btn:hover {
   color: var(--primary900);
   transform: rotate(90deg);
-}
-
-.img-container {
-  display: grid;
-  place-self: center;
 }
 
 .links a {
@@ -318,15 +312,13 @@ nav {
   .center {
     max-width: var(--max-width);
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .links {
     height: auto;
-    justify-self: center;
-    align-self: center;
     display: flex;
   }
 
@@ -341,14 +333,13 @@ nav {
   }
 
   .social-icons {
-    justify-self: center;
-    align-items: center;
     display: flex;
   }
 
   .social-icons a {
     color: var(--primary500);
     margin-left: 1rem;
+    transition: var(--transition);
   }
 
   .social-icons a:hover {
