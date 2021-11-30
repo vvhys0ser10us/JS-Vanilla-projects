@@ -278,7 +278,7 @@ ul {
   /* width: 400px; */
   width: 60%;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .btn-menu {
@@ -313,7 +313,7 @@ ul {
 }
 
 .descr {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .food {
@@ -322,7 +322,7 @@ ul {
   border-bottom: 1px dotted rgba(0, 0, 0, 1);
 }
 
-@media screen and (min-width: 778px) {
+@media screen and (min-width: 768px) {
   /* .items {
     margin: 0 auto;
     max-width: var(--max-width);
