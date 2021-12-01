@@ -8,91 +8,72 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css" />
 
-    <title>Default Starter</title>
+    <title>Scroll</title>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod
-      sunt natus? Libero cupiditate, deserunt beatae laudantium voluptatibus
-      reiciendis! Eius!
-    </p>
-    <h2>Hello World</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eaque.
-      Eveniet exercitationem soluta minus ipsa earum ipsum voluptates vitae
-      provident.
-    </p>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
-    <a href="#">Link Example</a>
-    <ul>
-      <li>First item</li>
-      <li>Second item</li>
-      <li>Third item</li>
-    </ul>
-    <img src="about.jpeg" alt="about" class="img" />
-    <br />
-    <button class="btn" type="button">Regular</button>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img class="logo" src="./logo.svg" alt="logo" />
+            <button class="nav-btn">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
 
-    <button class="btn btn-hipster" type="button">Hipster</button>
-
-    <br />
-    <br />
-    <div class="alert alert-success">hello success</div>
-
-    <div class="alert alert-danger">hello danger</div>
-
-    <form action="" class="form">
-      <h4>Contact form</h4>
-      <div class="form-row">
-        <label for="name" class="form-label">Name</label>
-        <input
-          type="text"
-          placeholder="Your Name"
-          id="name"
-          class="form-input"
-        />
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">tours</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- header-center -->
+      <div class="banner">
+        <div class="center">
+          <h2>scroll project</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Blanditiis, velit minima? Ut aliquam facilis beatae?
+          </p>
+          <a href="#tours" class="btn header-btn">Explore tours</a>
+        </div>
       </div>
-      <div class="form-row">
-        <label for="number" class="form-label">Number</label>
-        <input
-          type="text"
-          placeholder="Your Number"
-          id="number"
-          class="form-input"
-        />
-        <small class="form-alert">Please provide value</small>
-      </div>
+    </header>
 
-      <div class="form-row">
-        <label for="email" class="form-label">Email</label>
-        <input
-          type="email"
-          placeholder="Your Email"
-          id="email"
-          class="form-input"
-        />
-      </div>
+    <section id="about" class="odd">
+      <h4 class="section-title">about <span>us</span></h4>
+      <div class="section-center"></div>
+    </section>
 
-      <div class="form-row">
-        <label for="textarea" class="form-label">Feedback</label>
-        <textarea
-          name="feedback"
-          class="form-textarea"
-          cols="30"
-          rows="10"
-          placeholder="Your feedback"
-        ></textarea>
-      </div>
+    <section id="services">
+      <h4 class="section-title">our <span>service</span></h4>
+      <div class="section-center"></div>
+    </section>
 
-      <button type="submit" class="btn btn-block">Submit</button>
-    </form>
+    <section id="tours" class="odd">
+      <h4 class="section-title">featured <span>tours</span></h4>
+      <div class="section-center"></div>
+    </section>
 
-    <div class="loading"></div>
+    <footer>
+      <p>
+        Copyright &copy; Backroads Travel Tours Company
+        <span id="date"></span>. All Rights Reserved
+      </p>
+    </footer>
 
     <script src="app.js"></script>
   </body>
