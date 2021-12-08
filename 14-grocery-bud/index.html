@@ -8,91 +8,36 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css" />
 
-    <title>Default Starter</title>
+    <title>Grocery Bud</title>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod
-      sunt natus? Libero cupiditate, deserunt beatae laudantium voluptatibus
-      reiciendis! Eius!
-    </p>
-    <h2>Hello World</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eaque.
-      Eveniet exercitationem soluta minus ipsa earum ipsum voluptates vitae
-      provident.
-    </p>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
-    <a href="#">Link Example</a>
-    <ul>
-      <li>First item</li>
-      <li>Second item</li>
-      <li>Third item</li>
-    </ul>
-    <img src="about.jpeg" alt="about" class="img" />
-    <br />
-    <button class="btn" type="button">Regular</button>
+    <section class="center">
+      <form class="form-center">
+        <p class="alert"></p>
+        <h3>Grocery Bud</h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="e.g. eggs" />
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </form>
 
-    <button class="btn btn-hipster" type="button">Hipster</button>
-
-    <br />
-    <br />
-    <div class="alert alert-success">hello success</div>
-
-    <div class="alert alert-danger">hello danger</div>
-
-    <form action="" class="form">
-      <h4>Contact form</h4>
-      <div class="form-row">
-        <label for="name" class="form-label">Name</label>
-        <input
-          type="text"
-          placeholder="Your Name"
-          id="name"
-          class="form-input"
-        />
+      <div class="container">
+        <div class="list">
+          <!-- <article class="items">
+            <p class="item-name">item</p>
+            <div class="btns">
+              <button class="icon" id="edit">
+                <i class="far fa-edit"></i>
+              </button>
+              <button class="icon" id="trash">
+                <i class="far fa-trash-alt"></i>
+              </button>
+            </div>
+          </article> -->
+        </div>
+        <button class="clear-btn">clear</button>
       </div>
-      <div class="form-row">
-        <label for="number" class="form-label">Number</label>
-        <input
-          type="text"
-          placeholder="Your Number"
-          id="number"
-          class="form-input"
-        />
-        <small class="form-alert">Please provide value</small>
-      </div>
-
-      <div class="form-row">
-        <label for="email" class="form-label">Email</label>
-        <input
-          type="email"
-          placeholder="Your Email"
-          id="email"
-          class="form-input"
-        />
-      </div>
-
-      <div class="form-row">
-        <label for="textarea" class="form-label">Feedback</label>
-        <textarea
-          name="feedback"
-          class="form-textarea"
-          cols="30"
-          rows="10"
-          placeholder="Your feedback"
-        ></textarea>
-      </div>
-
-      <button type="submit" class="btn btn-block">Submit</button>
-    </form>
-
-    <div class="loading"></div>
+    </section>
 
     <script src="app.js"></script>
   </body>
