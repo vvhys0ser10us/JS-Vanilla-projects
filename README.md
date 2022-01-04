@@ -2,17 +2,17 @@
 
 <p>Simple small projects built with javascript</p>
 
-01-color flipper
-02-counter
-03-reviews
-04-navbar
-05-sidebar
-06-modal
-07-questions
-08-menu
-09-video
-10-scroll
-11-tabs
-12-counterdown
-13-lorem ipsum
-14-grocery bud
+01-color flipper <br />
+02-counter <br />
+03-reviews <br />
+04-navbar <br />
+05-sidebar <br />
+06-modal <br />
+07-questions <br />
+08-menu <br /> 
+09-video <br /> 
+10-scroll <br />
+11-tabs <br />
+12-counterdown <br />
+13-lorem ipsum <br />
+14-grocery bud <br />
