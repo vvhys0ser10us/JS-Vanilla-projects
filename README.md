@@ -1,4 +1,4 @@
-# js-small-projects
+# JS-Vanilla-Projects
 
 <p>Simple small projects built with javascript</p>
 
