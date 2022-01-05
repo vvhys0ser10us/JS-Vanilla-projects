@@ -1,6 +1,6 @@
 # JS-Vanilla-Projects
 
-<p>Simple small projects built with javascript</p>
+<p>Vanilla projects built with javascript</p>
 
 01-color flipper <br />
 02-counter <br />
